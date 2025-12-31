@@ -422,40 +422,40 @@ export const products = [
     id: "MB1",
     nama: "Money Bouquet A",
     jenis: "Money Bouquet",
-    harga: 1200000,
+
     gambar: MoneyBouquet1,
 },
 {    id: "MB2",
     nama: "Money Bouquet B",
     jenis: "Money Bouquet",
-    harga: 1200000,
+
     gambar: MoneyBouquet2,
 },  
 {    id: "MB3",
     nama: "Money Bouquet C",
     jenis: "Money Bouquet",
-    harga: 1200000,
+
     gambar: MoneyBouquet3,
 },
 
 // MONEY BOUQUET ARTIFICIAL
 {
     id: "MBA1",
-    nama: "Money Bouquet Artificial A",
+    nama: "Money Bouquet A",
     jenis: "Money Bouquet Artificial",
-    harga: 1300000,
+
     gambar: MoneyBouquetart1,
 },
 {    id: "MBA2",
-    nama: "Money Bouquet Artificial B", 
+    nama: "Money Bouquet B", 
     jenis: "Money Bouquet Artificial",
-    harga: 1300000,
+
     gambar: MoneyBouquetart2,
 },
 {    id: "MBA3",
-    nama: "Money Bouquet Artificial C",
+    nama: "Money Bouquet C",
     jenis: "Money Bouquet Artificial",
-    harga: 1300000,
+
     gambar: MoneyBouquetart3,
 },
 

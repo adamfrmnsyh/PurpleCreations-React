@@ -1,11 +1,12 @@
-const OrderButton = ({ namaProduk, harga }) => {
+const OrderButton = ({ namaProduk, jenis,harga }) => {
   const handleOrder = () => {
     const message = `
 Halo Purple Creations 🌸
 
 Saya ingin memesan produk berikut:
-🌼 Nama Produk : ${namaProduk}
-💰 Harga       : Rp ${harga}
+Nama Produk : ${namaProduk}
+Jenis Produk : ${jenis}
+Harga       : Rp ${harga}
 
 Mohon info ketersediaan dan detail pemesanannya ya 🙏
     `;

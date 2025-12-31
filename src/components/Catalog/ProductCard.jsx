@@ -18,7 +18,9 @@ export default function ProductCard({ product }) {
       <p className="text-sm text-gray-600 line-clamp-2">{product.deskripsi}</p>
 
       <div className="mt-2 mb-3 text-gray-900 font-semibold">
-        Rp {product.harga.toLocaleString("id-ID")}
+        {product.harga
+          ? `Rp ${Number(product.harga).toLocaleString("id-ID")}`
+          : "Harga tertera di deskripsi"}
       </div>
 
       <OrderButton namaProduk={product.nama} harga={product.harga} />
